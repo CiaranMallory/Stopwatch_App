@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="timer" id="timer">
+            00 : 00 : 00
+        </div>
+        <ol class="lap_box"></ol>
+        <div class="bottomPart">
+            <div class="btns">
+                <button class="reset" onclick="reset()">Reset</button>
+                <button class="toggle" id="startStop" onclick="startStop()">Start</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
